@@ -11,7 +11,7 @@ public class Requester{
 	{
 		try{
 			//1. creating a socket to connect to the server
-			requestSocket = new Socket("localhost", 11111);
+			requestSocket = new Socket("218.35.176.234", 11111);
 			System.out.println("Connected to localhost in port 11111");
 			//2. get Input and Output streams
 			out = new ObjectOutputStream(requestSocket.getOutputStream());
